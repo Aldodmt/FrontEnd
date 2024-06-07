@@ -1,0 +1,437 @@
+.contenedor{
+    width: 1000px;
+    height: 600px;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+.contenedor2{
+    width: 1000px;
+    height: 600px;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.contenedor3{
+    width: 1000px;
+    height: 600px;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.capa_encabezado{
+    width: 900px;
+    height: 100px;
+    background-color: #082f99;
+    margin-top: 50px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.capa_encabezado2{
+    width: 900px;
+    height: 100px;
+    background-color: #082f99;
+    margin-top: 50px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.capa_encabezado3{
+    width: 900px;
+    height: 100px;
+    background-color: #082f99;
+    margin-top: 50px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.Encabezado{
+    font-size: 50px;
+    color: white;
+    height: 50px;
+    margin-left: 30%;
+    margin-top: 25px;
+    position: relative;
+}
+
+.Encabezado2{
+    font-size: 50px;
+    color: white;
+    height: 50px;
+    margin-left: 360px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.Encabezado3{
+    font-size: 50px;
+    color: white;
+    height: 50px;
+    margin-left: 30%;
+    margin-top: 25px;
+    position: relative;
+}
+
+.capa_login{
+    width: 400px;
+    height: 250px;
+    background-color:#082f99;
+    margin-top: 200px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.login1{
+    font-size: 55px;
+    height: 10px;
+    color: white;
+    margin-top: 95px;
+    margin-left: 90px;
+    position: relative;
+}
+
+.logini{
+    color: white;
+}
+
+.capa_registro{
+    width: 400px;
+    height: 250px;
+    background-color:#082f99;
+    margin-top: 200px;
+    margin-left: 550px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.registro1{
+    font-size: 55px;
+    height: 10px;
+    margin-top: 95px;
+    margin-left: 70px;
+    position: relative;
+}
+
+.capa_pie{
+    width: 900px;
+    height: 50px;
+    background-color: #082f99;
+    margin-top: 500px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.capa_pie2{
+    width: 900px;
+    height: 50px;
+    background-color: #082f99;
+    margin-top: 500px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.capa_pie3{
+    width: 900px;
+    height: 50px;
+    background-color: #082f99;
+    margin-top: 500px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.Pie{
+    color: white;
+    font-size: 20px;
+    height: 10px;
+    margin-top: 15px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.Pie2{
+    color: white;
+    font-size: 20px;
+    height: 10px;
+    margin-top: 15px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.Pie3{
+    color: white;
+    font-size: 20px;
+    height: 10px;
+    margin-top: 15px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.marco{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(231, 223, 113);
+    margin-top: 200px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.marquito1{
+     width: 150px;
+     height: 100px;
+     background-color: #082f99;
+     margin-top: 20px;
+     margin-left: 220px;
+     position: absolute;
+     border-radius: 5px;
+}
+
+.marquito2{
+    width: 150px;
+     height: 100px;
+     background-color: #082f99;
+     margin-top: 140px;
+     margin-left: 220px;
+     position: absolute;
+     border-radius: 5px;
+}
+
+.marquito3{
+    width: 150px;
+     height: 100px;
+     background-color: #082f99;
+     margin-top: 140px;
+     margin-left: 40px;
+     position: absolute;
+     border-radius: 5px;
+}
+
+.marco2{
+    width: 450px;
+    height: 250px;
+    background-color:#082f99;
+    margin-top: 200px;
+    margin-left: 500px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.marco3{
+    width: 600px;
+    height: 300px;
+    background-color:#082f99;
+    margin-top: 190px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.marco4{
+    width: 280px;
+    height: 300px;
+    background-color:#082f99;
+    margin-top: 190px;
+    margin-left: 670px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.label1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: absolute;
+}
+.input1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 25px;
+    margin-top: 40px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.label2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 20px;
+    margin-top: 60px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.input2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 25px;
+    margin-top: 80px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.label3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.input3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 25px;
+    margin-top: 35px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.label4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.input4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 25px;
+    margin-top: 55px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.label5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 20px;
+    margin-top: 70px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.input5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 25px;
+    margin-top: 75px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.label6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 20px;
+    margin-top: 90px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.input6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 25px;
+    margin-top: 95px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+
+.Boton1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #082f99;
+    height: 30px;
+    margin-top: 120px;
+    margin-left: 30px;
+    position: absolute;
+}
+.Boton2{
+    width: 225px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #082f99;
+    height: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.Boton3{
+    width: 80px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #082f99;
+    height: 30px;
+    margin-top: 120px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.Boton4{
+    width: 225px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #082f99;
+    height: 30px;
+    margin-top: 150px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+@keyframes fondo{
+    from{background-position-x: 0px;}
+    to{
+        background-position-x: -100px;
+
+    }
+}
+
+
+body{
+    background-color: #9fc1ff;
+    background-image: url('imagenes/cancha.jpg');
+    background-size: 150%;
+    background-attachment: fixed;
+    animation-name: fondo;
+    animation-duration: 10s;
+}

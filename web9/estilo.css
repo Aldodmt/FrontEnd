@@ -1,0 +1,30 @@
+table{
+    width: 400px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+table, td{
+    border: solid 2px black;
+}
+
+.tabla2{
+    margin-left: 400px;
+}
+
+.tabla3{
+    margin-left: 800px;
+}
+
+.capa{
+    background-color: brown;
+    width: 1200px;
+    height: 20px;
+}
+
+.label{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

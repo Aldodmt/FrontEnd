@@ -1,0 +1,22 @@
+.container{
+    width: 400px;
+    height: 600px;
+    margin-left: auto;
+    margin-top: 50px;
+    position: relative;
+}
+label{
+    background-color: blue;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.boton{
+    background-color: rgba(0, 0, 0, 0.26);
+    height: 50px;
+    border-radius: 5px;
+}
+
+button{
+    width: 100%;
+}

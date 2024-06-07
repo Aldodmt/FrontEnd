@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monedas</title>
+    <link rel="stylesheet" href="cs/estilo.css">
+</head>
+<body>
+<div class="contenedor">
+    <div class="tabla">
+        <table>
+            <tr>
+                <td>MONEDA</td>
+                <td>COMPRA</td>
+                <td>VENTA</td>
+            </tr>
+            <tr>
+                <td>Dolar Americano</td>
+                <td>7.400</td>
+                <td>7.460</td>
+            </tr>
+            <tr>
+                <td>Real</td>
+                <td>1.385</td>
+                <td>1.440</td>
+            </tr>
+            <tr>
+                <td>Peso Argentino</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+        </table>
+    </div>
+    <div class="conversor">
+        <h2>Conversor de monedas</h2>
+        <label class="Label2">De:</label><br>
+        <select id="moneda1">
+            <option value="dolar">Dolar americano</option>
+            <option value="real">Real</option>
+            <option value="peso">Peso Argentino</option>
+        </select><br>
+        <label class="Label2">A:</label><br>
+        <select id="moneda2">
+            <option value="pyg">Guarani Paraguayo</option>
+        </select><br>
+        <label>Cantidad: </label><br>
+        <input type="number" id="cantidad"><br>
+        <button type="button" onclick="convertir()">Convertir</button>
+        <label id="resultado">Resultado: </label>
+    </div>
+</div>
+</body>
+<script src="js/script.js"></script>
+</html>

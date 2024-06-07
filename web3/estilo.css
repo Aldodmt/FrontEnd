@@ -1,0 +1,14 @@
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: rgb(233, 241, 184);
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(5, 148, 100);
+}
+label{
+    color: white;
+}

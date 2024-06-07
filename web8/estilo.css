@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(64, 3, 133);
+}
+.container-md{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(115, 17, 228);
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+.Titulo{
+    width: 700px;
+    margin-left: 0px;
+    position: relative;
+    background-color: rgb(57, 32, 105);
+    border-radius: 10px;
+}
+
+.Titulo1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 150px;
+    
+}
+.form-text{
+    width: 500px;
+    color: white;
+}
+.form-label{
+    font-size: 30px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.form-control{
+    width: 300px;
+    height: 40px;
+}
+.invalid-feedback{
+    width: 300px;
+}
+.form-check-label{
+    width: 300px;
+}
+
+

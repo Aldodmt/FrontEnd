@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<div class="container">
+    <img src="imgenes/riot.jpg" class="logo">
+    <h3></h3>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Ingresa tu correo electronico para registrarte o iniciar sesión.</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electronico" oninput="habilitarBoton()">
+    </div>
+      <label class="label2"><a href="">Reenviar instrucciones de confirmacion</a></label>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary" id="boton" disabled>Ingresar</button>
+      </div>
+      <label for="floatingInputValue" class="label3">O bien</label><br>
+      <a href="https://accounts.google.com/" target="new"><button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true"><span><img src="imgenes/google.png" class="google"></span>Continuar Con Google</button></a>
+      <label class="label5">Desarrollado por: Aldo Marin</label>
+</div>
+</body>
+<script src="js/script.js"></script>
+</html>

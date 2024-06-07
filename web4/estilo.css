@@ -1,0 +1,9 @@
+legend{
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+}
+::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="cs/bootstrap.min.css">
+    <link rel="stylesheet" href="cs/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <label for="exampleFormControlInput1" class="text-bg-primary p-3">Calculadora Online</label>
+        <input type="text" class="form-control" placeholder="Ingrese un numero" id="Display">
+        <input class="form-control" type="text" placeholder="0." aria-label="Disabled input example" id="Display_resultado" disabled>
+        <div class="row">
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-outline-secondary" onclick="escribir(7)">7</button>
+                <button type="button" class="btn btn-outline-secondary"onclick="escribir(8)">8</button>
+                <button type="button" class="btn btn-outline-secondary" onclick="escribir(9)">9</button>
+                <button type="button" class="btn btn-success" onclick="operadora('-')">-</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-outline-secondary" onclick="escribir(4)">4</button>
+                <button type="button" class="btn btn-outline-secondary" onclick="escribir(5)">5</button>
+                <button type="button" class="btn btn-outline-secondary" onclick="escribir(6)">6</button>
+                <button type="button" class="btn btn-success" onclick="operadora('*')">*</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">1</button>
+                <button type="button" class="btn btn-outline-secondary" onclick="escribir(2)">2</button>
+                <button type="button" class="btn btn-outline-secondary" onclick="escribir(3)">3</button>
+                <button type="button" class="btn btn-warning" onclick="operadora('+')">+</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-outline-secondary" onclick="escribir(0)">0</button>
+                <button type="button" class="btn btn-outline-secondary" onclick="escribir(',')">,</button>
+                <button type="button" class="btn btn-outline-secondary" onclick="escribir('.')">.</button>
+                <button type="button" class="btn btn-danger" onclick="operadora('=')">=</button>
+            </div>
+        </div>
+        <div class="boton">
+        <button type="button" class="btn btn-success" id="Limpiar" onclick="operadora('limpiar')">Limpiar</button>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>

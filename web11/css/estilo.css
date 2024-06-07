@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-fluid{
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 500px;
+    margin-left: 400px;
+    position: relative;
+    border-radius: 10px;
+}
+.col-6{
+    background-color: rgba(0, 0, 0, 0.116);
+    height: 300px;
+}
+.d-flex{
+    margin-top: 5px;
+}
+
+.imagen1{
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.col-12{
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+.imagen2{
+    width: 50px;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.h22{
+    margin-top: 10px;
+}
+
+.col-4{
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+.imagen3{
+    width: 300px;
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.imagen1, .imagen3{
+    border: solid 5px black;
+}
