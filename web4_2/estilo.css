@@ -1,0 +1,32 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.conteiner{
+    width: 500px;
+    height: max-content;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    border: solid 3px rgba(116, 8, 131, 0.521);
+}
+
+button{
+    width: 80px;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+table{
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    margin: auto;
+}
+
+tr, td{
+    width: 100px;
+    height: 100%;
+    margin-top: 10px;
+    border: solid 2px black;
+}

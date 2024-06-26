@@ -1,0 +1,35 @@
+.container{
+    width: 500px;
+    height: max-content;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    border: solid 2px black;
+}
+
+tr, td{
+    width: 500px;
+    height: 35px;
+    border: solid 2px black;
+}
+
+.input1{
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.boton{
+    width: 80px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.tabla{
+    border: white;
+    margin-left: 150px;
+}
+table{
+    margin-left: 200px;
+}

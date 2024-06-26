@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Jquery</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#ocultar").click(function(){
+            $("p").hide();
+            $("#Pa").show();
+        });
+
+        $("#ver").click(function(){
+            $("p").show();
+            $("#Pa").hide();
+        });
+        });
+        
+    </script>
+</head>
+<body>
+    <h2 id="ver">Introduccion a jQuery</h2>
+    <p id="ocultar">Haz que el titulo se oculte al hacer click en el mismo</p>
+    <p id="Pa">Como se oculto el parrafo?</p>
+</body>
+
+</html>

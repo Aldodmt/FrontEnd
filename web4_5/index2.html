@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertir HTML a PDF</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js"></script>
+</head>
+<body>
+    <div id="content-to-pdf">
+        <h1>Mi página para convertir a PDF</h1>
+        <p>Contenido de ejemplo que se convertirá a PDF.</p>
+    </div>
+
+    <button id="download-pdf">Descargar PDF</button>
+
+    <script>
+        $(document).ready(function() {
+            $('#download-pdf').click(function() {
+                // Crea una instancia de jsPDF
+                var doc = new jsPDF();
+
+                // Obtiene el contenido de tu página
+                var html = $('#content-to-pdf').html();
+
+                // Opciones de formato para la conversión
+                var options = {
+                    margin: {
+                        top: 10,
+                        left: 10,
+                        right: 10,
+                        bottom: 10
+                    }
+                };
+
+                // Convierte el contenido HTML a PDF
+                doc.html(html, options);
+
+                // Descarga el PDF con nombre 'documento.pdf'
+                doc.save('documento.pdf');
+            });
+        });
+    </script>
+</body>
+</html>
